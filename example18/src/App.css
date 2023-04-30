@@ -34,8 +34,15 @@
 }
 
 .Containers{
-  display:flex;
-  flex-direction:row;
+  background-color: #ffffff;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  font-size: calc(9px + 1.5vmin);
+  color: rgb(0, 0, 0);
 }
 @keyframes App-logo-spin {
   from {
