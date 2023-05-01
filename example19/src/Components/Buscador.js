@@ -1,20 +1,18 @@
-import { InputGroup, FormControl } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
 
 
 const Buscador = (props) => {
-    return (  
+    return (
         <div className="Buscador">
             <InputGroup className="mb-3">
-            <InputGroup.Prepend>
-                <InputGroup.Text id="inputGroup-sizing-default">Buscador</InputGroup.Text>
-            </InputGroup.Prepend>
-            <FormControl
-                onChange={(e)=>props.buscar(e.target.value)}
-            />
+                <InputGroup.Text id="basic-addon1">Buscador</InputGroup.Text>
+                <Form.Control
+                    onChange={(e) => props.buscar(e.target.value)}
+                />
             </InputGroup>
         </div>
     );
 }
- 
+
 export default Buscador;
