@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-body {
+  background-color: #ffffff;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  font-size: calc(9px + 1.5vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-title {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-banner {
+  background-color: #a78a08;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  font-size: calc(9px + 1vmin);
+  color: rgb(255, 255, 255);
+
+}
