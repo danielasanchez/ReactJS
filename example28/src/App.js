@@ -10,7 +10,6 @@ function App() {
   return (
     <MateriasProvider>
       <div className="App">
-
         <Header
           titulo={<h1>Mi cocina</h1>}
         />
@@ -27,7 +26,6 @@ function App() {
         <Banner
           etiqueta={<h6>Copyright &copy; Todos los derechos reservados </h6>}
         />
-
       </div>
     </MateriasProvider>
   );
