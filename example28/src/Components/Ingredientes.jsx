@@ -1,11 +1,11 @@
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import {useContext} from 'react';
-import {MateriasContext} from '../Context/MateriasContext'
+import {RecetaContext} from '../Context/RecetaContext'
 
 const Ingredientes = () => {
 
-    const {ingredientes, eliminar} = useContext(MateriasContext);
+    const {ingredientes, eliminar} = useContext(RecetaContext);
 
     return (  
       <div style={{paddingTop: "5vh"}}>

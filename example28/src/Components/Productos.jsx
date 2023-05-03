@@ -1,11 +1,11 @@
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import {useContext} from 'react';
-import {MateriasContext} from '../Context/MateriasContext'
+import {RecetaContext} from '../Context/RecetaContext'
 
 const Productos = () => {
 
-  const {productos, ingredientes, agregar} = useContext(MateriasContext);
+  const {productos, ingredientes, agregar} = useContext(RecetaContext);
 
   const verificar=(p)=>{
     let temp= ingredientes.find((a,i)=>a.id===p.id)

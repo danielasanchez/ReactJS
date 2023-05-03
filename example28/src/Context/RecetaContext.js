@@ -2,10 +2,10 @@ import React, {createContext, useState} from 'react'
 //import Swal from 'sweetalert2';
 
 
-export const MateriasContext = createContext();
+export const RecetaContext = createContext();
 
-const MateriasProvider = (props)=>{
-    const [productos, setProductos] = useState([
+const RecetaProvider = (props)=>{
+    const [productos] = useState([
         {id:1, clave:"Q1",descripcion:"aceite",unidad:"1 cda"},
         {id:2, clave:"Q1",descripcion:"aceite",unidad:"2 cdas"},
         {id:3, clave:"Q2",descripcion:"huevo",unidad:"1 pieza"},
@@ -34,7 +34,7 @@ const MateriasProvider = (props)=>{
     
 
     return(
-        <MateriasContext.Provider
+        <RecetaContext.Provider
             value={{
                 productos,
                 ingredientes,
@@ -44,8 +44,8 @@ const MateriasProvider = (props)=>{
         >
                 {props.children}
 
-        </MateriasContext.Provider>
+        </RecetaContext.Provider>
     );
 }
 
-export default MateriasProvider;
+export default RecetaProvider;

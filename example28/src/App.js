@@ -4,11 +4,11 @@ import Banner from './Components/Banner';
 import Header from './Components/Header';
 import Ingredientes from './Components/Ingredientes';
 import Productos from './Components/Productos';
-import MateriasProvider from './Context/MateriasContext';
+import RecetaProvider from './Context/RecetaContext';
 
 function App() {
   return (
-    <MateriasProvider>
+    <RecetaProvider>
       <div className="App">
         <Header
           titulo={<h1>Mi cocina</h1>}
@@ -27,7 +27,7 @@ function App() {
           etiqueta={<h6>Copyright &copy; Todos los derechos reservados </h6>}
         />
       </div>
-    </MateriasProvider>
+    </RecetaProvider>
   );
 }
 
