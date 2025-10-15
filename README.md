@@ -1,6 +1,6 @@
 # Update!
 
-A new repository was created that uses **Vite** to create projects and only uses functional components> [ReactJS2025](https://github.com/danielasanchez/ReactJS2025).
+A new repository was created that uses **Vite** to create projects and only uses functional components: [ReactJS2025](https://github.com/danielasanchez/ReactJS2025).
 
 
 
